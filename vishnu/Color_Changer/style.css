@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #baaeae;
+}
+nav a{
+    border: solid #6ea3f8 2px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button{
+    width: 200px;
+    height: 100px;
+    border: solid #c2bcbc 2px;
+    display: inline-block;
+    
+}
+.orange{
+    background: #fdbc43;
+}
+.white{
+    background: #ffffff;
+}
+.green{
+    background: #3aed3a;
+}
+.yellow{
+    background: #ffff00;
+}
+#orange{
+    background: #fdbc43;
+}
+#white{
+    background: #ffffff;
+}
+#green{
+    background: #3aed3a;
+}
+#yellow{
+    background: #ffff00;
+}
+span{
+    display: block;
+}
