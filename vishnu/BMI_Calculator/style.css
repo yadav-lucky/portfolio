@@ -26,7 +26,7 @@ nav a{
     align-items: center;
     padding: 25px;
     width: 50%;
-    margin: 10px;
+    margin-inline: auto;
     background-color: #adad9f;
     border-radius: 10px;
     text-align: center;
