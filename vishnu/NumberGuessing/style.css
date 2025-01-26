@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #636361;
+}
+nav{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #baaeae;
+}
+nav a{
+    border: solid #6ea3f8 2px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
