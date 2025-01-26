@@ -1,8 +1,7 @@
-// JavaScript file to handle dynamic features like navigation effects
+// Navigation effect
 document.querySelectorAll("nav ul li a").forEach(link => {
-    link.addEventListener("click", () => {
+  link.addEventListener("click", () => {
       document.querySelectorAll("nav ul li a").forEach(link => link.classList.remove("active"));
       link.classList.add("active");
-    });
   });
-  
+});
