@@ -24,10 +24,23 @@ body{
     margin-inline: auto;
     padding-inline: 5%;
 }
+.header-content a{
+    border: solid #6ea3f8 2px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 14px #0000004d;
+}
+.header-content a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #0000004d;
+}
 main{
     padding: 25px;
 }
-a{
+.countries-container a{
     cursor: pointer;
     text-decoration-line: none;
     color: inherit;

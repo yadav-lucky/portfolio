@@ -26,20 +26,28 @@
   
   nav ul li {
     margin: 0 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ffffffd6;
   }
-  
+  nav ul li:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffffffb0;
+    
+}
   nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     transition: color 0.3s ease, transform 0.3s ease;
   }
   
   nav ul li a:hover, nav ul li a.active {
     color: #c5a15c; /* Gold color for hover effect */
-    transform: scale(1.1);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #0000004d;
   }
   
   .home {

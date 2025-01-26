@@ -9,12 +9,13 @@ nav{
     background-color: #baaeae;
 }
 nav a{
-    border: solid #6ea3f8 2px;
+    border: solid #ffffff87 2px;
     padding: 10px;
     border-radius: 10px;
     color: black;
     text-decoration: none;
     font-weight: bold;
+    box-shadow: 3px 3px 5px #ffffffeb;
 }
 .button{
     width: 200px;
