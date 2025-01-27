@@ -119,7 +119,7 @@
   <!-- Contact Section -->
 <section id="contact" class="contact">
   <h1>Contact Us</h1>
-  <form>
+  <form id="contact-form">
     <div class="input-group">
       <input type="text" placeholder="Your Name" required>
     </div>
@@ -131,11 +131,34 @@
     </div>
     <button type="submit">Send Message</button>
   </form>
+  
+  <!-- Success message will be displayed here -->
+  <div id="success-message" style="display:none; color: green; margin-top: 20px;">
+    <p>Your message has been sent successfully!</p>
+  </div>
 </section>
+
+<script>
+  // Get form and success message elements
+  const form = document.getElementById('contact-form');
+  const successMessage = document.getElementById('success-message');
+  
+  // Add event listener for form submission
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting the traditional way
+    
+    // Show the success message
+    successMessage.style.display = 'block';
+    
+    // Optionally, clear the form fields
+    form.reset();
+  });
+</script>
+
 
   <!-- Footer Section -->
   <footer>
-    <p>&copy; 2025 Your Software Development Company. All rights reserved.</p>
+    <p>&copy; 2025 Demo Software Development Company. All rights reserved.</p>
   </footer>
 
 </body>
