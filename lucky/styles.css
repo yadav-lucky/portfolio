@@ -307,3 +307,53 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    gap: 20px; /* Adds space between the items */
+    margin-top: 20px; /* Space from the section title */
+    justify-items: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (if there's extra height) */
+  }
+  
+  .project {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Space inside each project */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Centers the text and images */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: rounded corners for images */
+    margin-bottom: 15px; /* Space between the image and the text */
+  }
+  
+  .project a {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-top: 10px; /* Space between the text and the bottom of the container */
+  }
+  
+  .project a:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .projects-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 items per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projects-container {
+      grid-template-columns: 1fr; /* 1 item per row on very small screens */
+    }
+  }
+  

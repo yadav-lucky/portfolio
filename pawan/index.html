@@ -1,96 +1,361 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automation Testing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Profile : Pawan Nishad</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+        integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
 </head>
+
 <body>
-    <header>
-        <h1>Automation Testing Webpage</h1>
-        <p>This page includes various allocators for testing purposes.</p>
+    <header class="head">
+        <div class="logo border-bottom">
+            <img class="w-100" src="assets/images/logo.jpg" alt="" />
+            <a class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </a>
+        </div>
+        <div id="navbarNav" class="navcol d-none d-lg-block">
+            <ul>
+                <li><a href="#"><i class="bi bi-house-door fs-5 me-2"></i> Home</a></li>
+                <li><a href="#about"><i class="bi fs-5 bi-info-square me-2"></i> About</a></li>
+                <li><a href="#service"><i class="bi fs-5 bi-gear me-2"></i> Service</a></li>
+                <li><a href="#portfolio"><i class="bi fs-5 bi-columns-gap me-2"></i> Projects</a></li>
+                <li><a href="#testimonial"><i class="bi fs-5 bi-people me-2"></i> Testimonial</a></li>
+                <li><a href="#blog"><i class="bi fs-5 bi-newspaper me-2"></i> Blog</a></li>
+                <li><a href="#contact"><i class="bifs-5  bi-envelope me-2"></i> Contact</a></li>
+                <li><a href="./dist/"><i class="bi fs-5 bi-columns-gap me-2"></i> YAMAHA chat bot</a></li>
+            </ul>
+        </div>
     </header>
+    <div class="main-content">
 
-    <nav>
-        <ul>
-            <li><a href="#section1">Form Inputs</a></li>
-            <li><a href="#section2">Select Dropdowns</a></li>
-            <li><a href="#section3">Radio Buttons</a></li>
-            <li><a href="#section4">Checkboxes</a></li>
-            <li><a href="#section5">File Upload</a></li>
-            <li><a href="#section6">Modal Window</a></li>
-        </ul>
-    </nav>
+        <!--########################## Profile Starts Here ############################# -->
 
-    <!-- Section 1: Form Inputs -->
-    <section id="section1">
-        <h2>Form Inputs</h2>
-        <form id="formInputs">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <!-- Section 2: Select Dropdowns -->
-    <section id="section2">
-        <h2>Select Dropdowns</h2>
-        <label for="dropdown">Choose a fruit:</label>
-        <select id="dropdown" name="dropdown">
-            <option value="apple">Apple</option>
-            <option value="banana">Banana</option>
-            <option value="orange">Orange</option>
-        </select>
-    </section>
-
-    <!-- Section 3: Radio Buttons -->
-    <section id="section3">
-        <h2>Radio Buttons</h2>
-        <label for="gender-male">Male:</label>
-        <input type="radio" id="gender-male" name="gender" value="male">
-        <label for="gender-female">Female:</label>
-        <input type="radio" id="gender-female" name="gender" value="female">
-        <label for="gender-other">Other:</label>
-        <input type="radio" id="gender-other" name="gender" value="other">
-    </section>
-
-    <!-- Section 4: Checkboxes -->
-    <section id="section4">
-        <h2>Checkboxes</h2>
-        <label for="subscribe">Subscribe to newsletter:</label>
-        <input type="checkbox" id="subscribe" name="subscribe">
-        <label for="accept">Accept terms and conditions:</label>
-        <input type="checkbox" id="accept" name="accept">
-    </section>
-
-    <!-- Section 5: File Upload -->
-    <section id="section5">
-        <h2>File Upload</h2>
-        <input type="file" id="file-upload" name="file-upload">
-    </section>
-
-    <!-- Section 6: Modal Window -->
-    <section id="section6">
-        <h2>Modal Window</h2>
-        <button id="openModalBtn">Open Modal</button>
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <span class="close-btn">&times;</span>
-                <h3>Modal Title</h3>
-                <p>This is a modal window for testing purposes.</p>
+        <div class="profile-head">
+            <div class="row vh-100">
+                <div class="col-xl-6 text-center mx-auto align-self-center ">
+                    <div class="imgcover mb-4">
+                        <img src="assets/images/square.jpg" class="rounded-pill bg-white p-2 shadow" alt="">
+                    </div>
+                    <b class="fs-6">Hi, I am Pawan Nishad</b>
+                    <h1 class="fw-bold mb-4 fs-1">Java Developer</h1>
+                    <p>MCA graduate with a passion for coding and a strong foundation in core Java, C/C++, data
+                        structures, and MySQL and having good knowledge of Spring Boot, Spring MVC, Rest API,
+                        JavaScript, CSS, Html and Hibernate.
+                        Eager to contribute skills in software development and problem-solving to drive innovation and
+                        deliver impactful solutions. Committed to continuous learning and professional growth.
+                    </p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <a
+                        href="https://docs.google.com/document/d/1bySnUC5BWmMwTSE5Bk9ys7YEQhBwv3ZE/edit?usp=sharing&ouid=102981372320434744511&rtpof=true&sd=true"><button
+                            class="btn btn-outline-primary fw-bolder fs-7 px-4 py-2 mt-3 rounded-pill">Download
+                            Resume</button></a>
+                </div>
             </div>
         </div>
-    </section>
 
-    <footer>
-        <p>&copy; 2025 Automation Testing Webpage</p>
-    </footer>
+        <!--########################## About Us Starts Here ############################# -->
 
-    <script src="script.js"></script>
+        <div id="about" class="about px-4 bg-white py-5">
+            <div class="titie-row row mb-3">
+                <h2 class="fw-bolder">About Me</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <p><b>I am, Pawan Nishad</b></p>
+                    <p class="pt-2 fs-6 text-justify">MCA graduate with a passion for coding and a strong foundation in
+                        core Java, C/C++, data structures, and MySQL and having the good knowledge of Spring Boot,
+                        Spring MVC, Rest API, JavaScript, CSS, Html and Hibernate.
+                        Eager to contribute skills in software development and problem-solving to drive innovation and
+                        deliver impactful solutions. Committed to continuous learning and professional growth.
+                    </p>
+
+                    <h4 class=" fs-5 my-3 mt-4 fw-bolder">What is my skill level ?</h4>
+                    <p>There are some skills I have gained during my college and project completion.</p>
+
+                    <div class="row skill-set">
+                        <div class="col-md-6 py-3">
+                            <h6 class="fw-bold">C++</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-label="Example with label"
+                                    style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <h6 class="fw-bold">Java Script</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-label="Example with label"
+                                    style="width: 65%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-3">
+                            <h6 class="fw-bold">Java</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-label="Example with label"
+                                    style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 py-3">
+                            <h6 class="fw-bold">MySQL</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-label="Example with label"
+                                    style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 py-3">
+                            <h6 class="fw-bold">Python</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-label="Example with label"
+                                    style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 py-3">
+                            <h6 class="fw-bold">CSS</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-label="Example with label"
+                                    style="width: 66%;" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">66%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 py-3">
+                            <h6 class="fw-bold">Html</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-label="Example with label"
+                                    style="width: 82%;" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">82%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 py-3">
+                            <h6 class="fw-bold">Spring</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-label="Example with label"
+                                    style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/images/profile.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--########################## Services Starts Here ############################# -->
+
+        <div id="service" class="service px-4 py-5">
+            <div class="titie-row row mb-3">
+                <h2 class="fw-bolder">Services</h2>
+                <p>There are some useful services provided by me or my team members.</p>
+            </div>
+
+            <div id="serviceadd" class="row mt-5">
+
+            </div>
+
+        </div>
+
+        <!--########################## Portfolio Starts Here ############################# -->
+
+        <div id="portfolio" class="service px-4 bg-white py-5">
+            <div class="titie-row row mb-3">
+                <h2 class="fw-bolder">Projects</h2>
+                <p>There are some projects given below:</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="serv-cove shadow-md rounded bg-white p-2">
+                        <a href="/index1.html"></i><img src="assets/images/blog/1.jpg" alt=""></a>
+                        <h5 class="mt-3 fs-6 fw-bold">Currency Converter</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ########################## Portfolio Starts Here #############################
+             
+             <div id="testimonial" class="service px-4 py-5">
+                 <div class="titie-row row mb-3">
+                    <h2 class="fw-bolder">Testimonial</h2>
+                    <p>My friends to develope the software.</p>
+                </div>
+            
+              <div id="testid" class="row mt-5 d-flex">
+            </div>
+            </div>
+             -->
+        <!--########################## Blog Starts Here ############################# -->
+
+        <div id="blog" class="service px-4 bg-white py-5">
+            <div class="titie-row row mb-3">
+                <h2 class="fw-bolder">Blog</h2>
+                <p>There is some important blogs I have posted here. </p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="serv-cove rounded bg-white p-2">
+                        <img src="assets/images/blog/1.jpg" alt="">
+                        <div class="p-2">
+                            <h5 class="mt-3 fs-7 fw-bold">Top 10 Trends in Webdesign</h5>
+                            <span class="fs-8">22 May 2015</span>
+                            <span class="float-end fs-8"><i class="bi bi-person"></i> Pawan Nishad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="serv-cove rounded bg-white p-2">
+                        <img src="assets/images/blog/2.jpg" alt="">
+                        <div class="p-2">
+                            <h5 class="mt-3 fs-7 fw-bold">Top 10 Trends in Webdesign</h5>
+                            <span class="fs-8">22 May 2015</span>
+                            <span class="float-end fs-8"><i class="bi bi-person"></i> Pawan Nishad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="serv-cove rounded bg-white p-2">
+                        <img src="assets/images/blog/3.jpg" alt="">
+                        <div class="p-2">
+                            <h5 class="mt-3 fs-7 fw-bold">Top 10 Trends in Webdesign</h5>
+                            <span class="fs-8">22 May 2015</span>
+                            <span class="float-end fs-8"><i class="bi bi-person"></i> Pawan Nishad</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--########################## Contact Us Starts Here ############################# -->
+
+        <div class="service px-4 py-5">
+            <div class="titie-row row mb-3">
+                <h2 class="fw-bolder">Contact Us</h2>
+                <p> you can contact me for HIRE or any project.</p>
+            </div>
+            <div class="contact-row m-0 mt-5 row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="shadow-md row p-4 m-0 rounded bg-white">
+                        <div class="col-md-3 text-center align-self-center">
+                            <i class="bi fs-1 bi-headphones"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <h6 class="fs-7 fw-bolder">Phone</h6>
+                            <ul>
+                                <li>+91 6394413281</li>
+                                <li>+91 8853664735</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="shadow-md row p-4 m-0 rounded bg-white">
+                        <div class="col-md-3 text-center align-self-center">
+                            <i class="bi fs-1 bi-envelope"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <h6 class="fs-7 fw-bolder">Email</h6>
+                            <ul>
+                                <li><a href="mailto:anshpn8@gmail.com" class="links"
+                                        id="emailLink">anshpn8@gmail.com</a></li>
+                                <li><a href="mailto:pawannishad88@gmail.com" class="links"
+                                        id="emailLink">pawannishad88@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="shadow-md row p-4 m-0  rounded bg-white">
+                        <div class="col-md-3 text-center align-self-center">
+                            <i class="bi fs-1 bi-house"></i>
+                        </div>
+                        <div class="col-md-9">
+                            <h6 class="fs-7 fw-bolder">Address</h6>
+                            <ul>
+                                <li>Noida Sector 63, Gautam-Buddh Nagar, Uttar Pradesh
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="contact" class="contact-row m-0 row">
+                <div class="col-md-6">
+                    <div class="shadow-md p-4 rounded bg-white">
+                        <h4 class="fs-6 fw-bolder mb-3">Contact Form</h4>
+                        <form action="" id="form">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label fw-bolder fs-8">Email
+                                    address</label>
+                                <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Enter Email Address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label fw-bolder fs-8">Enter Phone
+                                    No.</label>
+                                <input type="phone" name='phone' class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Enter Phone No.">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label fw-bolder fs-8">Example
+                                    textarea</label>
+                                <textarea class="form-control" name="message" placeholder="Enter Message"
+                                    id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-control">
+                                <button type="button" name='btnsub' class="form-control btn btn-primary"
+                                    id="btnsub">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="shadow-md p-4 rounded bg-white">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15659.16664494769!2d77.32095495000002!3d11.1288885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1660839868672!5m2!1sen!2sin"
+                            style="width:100%" height="340" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/plugins/testimonial/js/owl.carousel.min.js"></script>
+<script src="assets/js/script.js"></script>
+
 </html>
