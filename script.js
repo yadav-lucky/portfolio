@@ -9,3 +9,4 @@ document.querySelectorAll("nav ul li a").forEach(link => {
 // Slow down the video playback rate to 0.4 (40% speed)
 document.getElementById('video-background').playbackRate = 0.4;
 
+// done.
