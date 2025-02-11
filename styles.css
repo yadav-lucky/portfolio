@@ -47,9 +47,9 @@ nav ul li a:hover, nav ul li a.active {
   color: #c5a15c;
   transform: scale(1.1);
 }
-
+/* 
 /* Home Section */
-.home {
+/* .home {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -87,7 +87,7 @@ button {
 button:hover {
   background-color: #e2b97d;
   transform: scale(1.05);
-}
+} */ */
 
 /* Our Features Section */
 .features {
@@ -342,3 +342,46 @@ button:hover {
     width: 80%;
   }
 }
+
+/* Make sure the home section takes the full viewport */
+/* Make sure the home section takes the full viewport */
+#home {
+  position: relative;
+  height: 100vh; /* Full screen height */
+  overflow: hidden;
+}
+
+/* Video Background Styling */
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensures the video stays behind the content */
+  object-fit: cover; /* Makes the video cover the entire area */
+  clip-path: inset(0 0 1px 0); /* Cuts off 1px from the bottom */
+}
+
+/* Home content styling */
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centering content */
+  text-align: center;
+  color: white;
+  z-index: 1; /* Ensures text is above video */
+}
+
+/* Additional styling for button */
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+#home { position: relative; height: 100vh; overflow: hidden; } .video-background video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; clip-path: inset(0 0 1px 0); z-index: -1; } .home-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; z-index: 1; }
+
