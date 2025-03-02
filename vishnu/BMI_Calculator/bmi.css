@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #636361ad;
+}
+.fa-solid{
+    width: 100%;
+    color: #000000;
+    cursor: pointer;
+}
+.navbutton{
+    color: #000000;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0000004d;
+    position: sticky;
+    background-color: var(--background-color);
+    top: 90px;
+    transition: all 0.3s ease-in-out;
+}
+.navbutton:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 8px 15px #0000004d;
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    box-shadow: 0 0 5px #0000004d;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 50%;
+    margin-inline: auto;
+    background-color: #adad9f;
+    border-radius: 10px;
+    text-align: center;
+}
+.container h1{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#height, #weight{
+    width: 180px;
+    height: 23px;
+    padding: 5px;
+    font-size: 21px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 4px 4px #91918e;
+    background: #ffffff00;
+
+}
+button{
+    font-size: medium;
+    font-weight: bolder;
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 4px 4px #91918e;
+}
+#result{
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+

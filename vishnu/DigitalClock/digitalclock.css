@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #545454;
+}
+.fa-solid{
+    width: 100%;
+    color: white;
+    cursor: pointer;
+}
+.navbutton{
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00000031;
+    position: sticky;
+    background-color: var(--background-color);
+    top: 90px;
+    transition: all 0.3s ease-in-out;
+}
+.navbutton:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 8px 15px #f9f9f9f2;
+    color: black;
+    background-color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px #0000004d;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+.radhakrishna{
+    height: 80vh;
+}
+.radhakrishna:hover{
+    filter: drop-shadow(0px 0px 8px #f9f9f9f2);
+    rotate: 20deg;
+}
+.centre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.allCentre{
+    margin: 15px;
+    height: 80vh;
+    display: flex;
+    width: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+    /* border: 5px solid black; */
+    border-radius: 70%;
+    box-shadow: 2px 4px 4px 2px #00000049;
+
+}
+.allCentre:hover{
+    color: white;
+    box-shadow: 5px 8px 25px #f9f9f9f2;
+}
+#banner{
+    padding: 10px;
+}
+#clock{
+    padding: 20px;
+    width: 20vh;
+    border-radius: 10px;
+    /* color: white; */
+    box-shadow: 0px 4px 5px #000000a2;
+}
+#clock:hover{
+    box-shadow: 5px 8px 15px #f9f9f9f2;
+    color: black;
+    background-color: #fff;
+}

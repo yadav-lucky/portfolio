@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7d8a4;
+    font-family: cursive;
+}
+button{
+    box-shadow: 0 0px 4px 0px #00000015;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 3%;
+}
+.popup{
+    width: 500px;
+    height: 300px;
+    border-radius: 18px;
+    background-color: #fefaf3;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.7s ease-in-out;
+    top: 0;
+    left: 0;
+    box-shadow: 0 8px 4px 2px #00000040;
+    padding: 10px;
+}
+.popup-open .popup{
+    transform: scale(1);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+.close-icon{
+    padding: 5px;
+    color: #f6c46e;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    font-family: serif;
+}
+.overlay{
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: #0c0c0c0b;
+}
+
+.popup-open .overlay{
+    display: block;
+}
