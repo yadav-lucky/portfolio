@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ===================================================== */
+body{
+    background-color: #bcbca3a2;
+}
+/* ===================================================== */
+.fa-solid{
+    width: 100%;
+    color: #ffffff;
+    cursor: pointer;
+}
+.navbutton{
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 10px #6c6b6b4d;
+    position: sticky;
+    background-color: var(--background-color);
+    top: 90px;
+    transition: all 0.3s ease-in-out;
+}
+.navbutton:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px #e1dfdfaf;
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    box-shadow: 0 0 10px #b2b0b0d4;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+/* ===================================================== */
+html {
+    font-family: sans-serif;
+}
+/* ===================================================== */  
+.lastResult {
+    color: white;
+    padding: 7px;
+}
+/* ===================================================== */  
+.guesses {
+    /* color: white; */
+    padding: 7px;
+}
+/* ===================================================== */
+button {
+    background-color: #141414;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/* ===================================================== */  
+#subt {
+    background-color: #161616;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* ===================================================== */  
+#guessField {
+    color: #000;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 25px;
+  
+    /* margin-left: 50px; */
+    border: 5px solid #6c6d6d;
+    text-align: center;
+}
+/* ===================================================== */
+#guess {
+    font-size: 55px;
+    /* margin-left: 90px; */
+    margin-top: 120px;
+    color: #fff;
+}
+/* ===================================================== */
+.guesses {
+    margin: 10px;
+}
+/* ===================================================== */
+#wrapper {
+    position: relative;
+    top: 50px;
+    margin-inline: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 450px;
+    height: 550px;
+    background-color: #6a6565;
+    color: #fff;
+    font-size: 25px;
+}
+/* ===================================================== */ 
+h1 {
+    background-color: #161616;
+  
+    color: #fff;
+    text-align: center;
+}
+/* ===================================================== */  
+p {
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+  
